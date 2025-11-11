@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["style.css"],"sourcesContent":[".box{\r\n    background-color: blueviolet;\r\n    width: 200px;\r\n    height: 200px;\r\n    position: relative;\r\n}"],"names":[],"version":3,"file":"HW-time.3a01df49.css.map","sourceRoot":"/__parcel_source_root/"}
