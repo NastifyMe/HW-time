@@ -3,4 +3,12 @@
     width: 200px;
     height: 200px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    align-items: center;
+    font-size: 20px;
 }
