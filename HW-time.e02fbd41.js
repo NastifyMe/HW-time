@@ -714,33 +714,40 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"jOXmm":[function(require,module,exports,__globalThis) {
+// Завдання 2
+// Завдання "Анімація елементів": Створіть кілька елементів на сторінці і реалізуйте просту анімацію, 
+// змінюючи їх розмір, положення 
+// чи стилі через певний інтервал за допомогою setInterval.
+// const box = document.querySelector('.box')
+// let position = 0
+// let size = 0
+// let container = setInterval(() => {
+//     position +=5
+//     size += 5
+//     box.style.left = position + 'px'
+//     box.style.width = size + 'px'
+//     box.style.height = size + 'px'
+//     if (position >= 300 && size >= 50){
+//         clearInterval(container)
+//     }
+// }, 50)
 // Завдання 1
 // Завдання "Таймер інтервалу": Створіть програму, яка виводить повідомлення кожну секунду 
 // за допомогою setInterval. 
 // Після 5 повідомлень зупиніть виконання інтервалу за допомогою clearInterval.
-// let count = 0
-// const mess = setInterval(() => {
-//     console.log('Message:' + (count + 1))
-//     count ++
-//     if (count === 5){
-//         clearInterval(mess)
-//     }
-// }, 1000)
+let count = 1;
+const mess = setInterval(()=>{
+    console.log(`\u{41F}\u{43E}\u{432}\u{456}\u{434}\u{43E}\u{43C}\u{43B}\u{435}\u{43D}\u{43D}\u{44F}: ${count}`);
+    count++;
+    if (count > 5) clearInterval(mess);
+}, 1000);
 // Завдання 2
 // Завдання "Анімація елементів": Створіть кілька елементів на сторінці і реалізуйте просту анімацію, 
 // змінюючи їх розмір, положення 
 // чи стилі через певний інтервал за допомогою setInterval.
 const box = document.querySelector('.box');
+const text = document.querySelector('.text');
 let position = 0;
-let size = 0;
-let container = setInterval(()=>{
-    position += 5;
-    size += 5;
-    box.style.left = position + 'px';
-    box.style.width = size + 'px';
-    box.style.height = size + 'px';
-    if (position >= 300 && size >= 50) clearInterval(container);
-}, 50);
 
 },{}]},["kxwl6","jOXmm"], "jOXmm", "parcelRequirec022", {})
 
