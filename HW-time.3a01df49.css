@@ -12,29 +12,4 @@
   align-items: center;
   font-size: 20px;
 }
-
-button {
-  color: #fff;
-  cursor: pointer;
-  background-color: #00ff15;
-  border: none;
-  width: 100px;
-}
-
-.area {
-  border: 2px solid #000;
-  width: 800px;
-  height: 400px;
-  margin-top: 50px;
-  padding-top: 10px;
-  padding-left: 10px;
-  position: relative;
-  overflow: hidden;
-}
-
-.imgClick {
-  cursor: pointer;
-  width: 100px;
-  position: absolute;
-}
 /*# sourceMappingURL=HW-time.3a01df49.css.map */
